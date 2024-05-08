@@ -3,13 +3,15 @@ import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
 
 const Main = () => {
-    return (
-        <div>
-            <Header/>
-            <Outlet/>
-            <Footer/>
-        </div>
-    );
+  return (
+    <div>
+      <div className="max-w-6xl mx-auto">
+        <Header />
+        <Outlet />
+        <Footer />
+      </div>
+    </div>
+  );
 };
 
 export default Main;

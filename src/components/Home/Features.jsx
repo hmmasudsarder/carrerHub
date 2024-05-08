@@ -17,7 +17,7 @@ const Features = () => {
           neque voluptate!
         </p>
       </div>
-      <div className="">
+      <div className="grid grid-cols-2 gap-6">
         {
             jobs.map(job => <JobCard key={job.id} job={job}/>)
         }
